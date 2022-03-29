@@ -50,7 +50,9 @@
             <h1 style="font-size: 16px;">Draggle</h1>
             <div style="position: relative;">
                 <div style="height: 5px; background-color: #ccc; margin-top: 10px;"></div>        
-                <div style="height: 5px; 
+                <div
+                    id="enemyHealthBar"
+                    style="height: 5px; 
                     background-color: green; 
                     top: 0; 
                     position: absolute;
@@ -71,7 +73,9 @@
         <h1 style="font-size: 16px;">Emby</h1>
         <div style="position: relative;">
             <div style="height: 5px; background-color: #ccc; margin-top: 10px;"></div>        
-            <div style="height: 5px; 
+            <div
+                id="playerHealthBar" 
+                style="height: 5px; 
                 background-color: green; 
                 top: 0; 
                 position: absolute;
@@ -96,7 +100,7 @@
                 display: grid;
                 grid-template-columns: 1fr 1fr;"
             >
-                <button>Attack</button>
+                <button>Tackle</button>
                 <button>Attack2</button>
             </div>
             <div style="display: flex; 
