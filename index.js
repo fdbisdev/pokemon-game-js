@@ -347,8 +347,8 @@ function animateBattle(){
     emby.draw()
 }
 
-// animate()
-animateBattle()
+animate()
+// animateBattle()
 
 let lastKey = ''
 window.addEventListener('keydown', (e) => {
