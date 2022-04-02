@@ -55,9 +55,7 @@
 
    - Open index.html on browser.
    ```
-
----
-
+   - To see the game click <a href="https://fdbisdev-pokemon-js.vercel.app/">here</a>
 
 ---
 
